@@ -17,3 +17,12 @@ int main() {
     printNumber(a);
     printNumber(b);
 }
+
+/*
+You can not overload function declarations that differ only by return type.
+The following declaration results in an error.
+
+int printName(int a) { }
+float printName(int b) { }
+double printName(int c) { }
+*/
