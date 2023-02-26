@@ -16,7 +16,6 @@ int main() {
             else {
                 cout << setw(total_width) << i*j << '|';
             }
-            
         }
     }
 }
