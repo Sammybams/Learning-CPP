@@ -10,7 +10,7 @@ int main () {
     // 1
     int x = 5;
     int *p = &x;
-
+    cout << p << endl;
     x = x + 4;
     cout << x << endl;
     
