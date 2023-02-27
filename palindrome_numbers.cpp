@@ -9,7 +9,6 @@ bool isPalindrome(int x) {
     int initial = to_string(x).length() - 1;;
     int check_x = 0;
     
-
     for (int duplicate_x = x; duplicate_x > 0;) {
         check_x += (duplicate_x % 10) * pow(10, initial);
         duplicate_x =  duplicate_x/10;
@@ -17,7 +16,6 @@ bool isPalindrome(int x) {
     }
 
     cout << check_x << endl;
-    
 
     if (x==check_x) {
         return true;
