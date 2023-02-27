@@ -4,6 +4,8 @@
         "algorithm": "cpp",
         "chrono": "cpp",
         "limits": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "string": "cpp",
+        "ostream": "cpp"
     }
 }
