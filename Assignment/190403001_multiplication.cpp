@@ -7,7 +7,7 @@ int main() {
     int max=12, height=12;
     int total_width = to_string(max*height).length();
 
-    cout << setw(total_width*max) <<"Multiplication Table" << endl;
+    cout << setw(total_width*max) << "Multiplication Table" << endl;
     cout << setw(total_width*max+1) << "----------------------" << endl;
     cout << endl;
     
