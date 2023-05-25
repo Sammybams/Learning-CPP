@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-2011/2012 Second Mid-Semester Examination.
+2011/2012 Second Mid-Semester Examination - Group 3.
 */
 
 const double PI = 3.141592625;
@@ -29,13 +29,32 @@ int main () {
     cout << "Calculating the Volume of a Cylinder" << endl;
     cout << endl;
 
-    int radius;
-    int height;
+    bool state = true;
 
-    GetParameters(&radius, &height);
+    do {
+        
 
-    double volume = PI * pow(radius, 2) * height;
+        int radius;
+        int height;
 
-    cout << "The radius of the Cylinder is " << volume << endl;
+        GetParameters(&radius, &height);
+
+        double volume = PI * pow(radius, 2) * height;
+
+        cout << "The radius of the Cylinder is " << volume << endl;
+
+        cout << "Do you wish to solve for another cylinder? (y/n): ";
+        char answer;
+        cin >> answer;
+        cout << endl;
+
+        if (answer == 'y') {
+            state = true;
+        }
+        else {
+            state = false;
+        }
+    }
+    while (state);
 
 }
