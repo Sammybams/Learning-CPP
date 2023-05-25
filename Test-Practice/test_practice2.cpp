@@ -14,18 +14,18 @@ using namespace std;
 
 char Get_A_Letter () {
     for (int i = 0; i < 14; i++) {
-        cout << static_cast<char>(65 + (rand() % 26)) << " "
+        cout << static_cast<char>(65 + (rand() % 26)) << " ";
     }
     cout << static_cast<char>(65 + (rand() % 26)) << endl;
     
 }
 
 int main () {
-
-    int seed;
+    
     bool state = true;
     
     do {
+        int seed;
 
         cout << "Enter a seed value for randomization: ";
         cin >> seed;
@@ -33,16 +33,19 @@ int main () {
 
         srand(seed);
 
+        cout << "Your Fifteen-character encoded message: " << Get_A_Letter();
+        cout << endl;
+
         cout << "Do you wish to generate another message? (y/n): ";
         char answer;
         cin >> answer;
         cout << endl;
 
         if (answer == 'y') {
-            state = true
+            state = true;
         }
         else {
-            state = false
+            state = false;
         }
     }
     while (state);
