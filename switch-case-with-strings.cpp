@@ -9,7 +9,7 @@ int main()
     char name = 'a';
     char name1 = 'b';
     switch (name) {
-        case 'a':
+        case 'B': case 'A':
             cout << "Exact" << endl;
             break;
         case 'b':
