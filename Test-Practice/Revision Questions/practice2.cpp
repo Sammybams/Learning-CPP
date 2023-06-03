@@ -49,7 +49,7 @@ int main () {
 void Fill_It(int seed, int low, int high, int array[]) {
 
     srand(seed);
-    int range = high - low;
+    int range = high - low + 1;
     for (int i=0; i<20; i++) {
         array[i] = low + (rand()%range);
     }
