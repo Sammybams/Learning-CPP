@@ -16,9 +16,17 @@ int main () {
     int seed1;
     cin >> seed1;
     cin.ignore();
+
+    cout << "Enter a seed to generate the random numbers for the array 2: ";
+    int seed2;
+    cin >> seed2;
+    cin.ignore();
+
+    cout << endl;
+
     Fill_It(seed1, 0, 1000, array1);
 
-    cout << "Array 1: " << endl;
+    cout << "Array 1 - " << endl;
     cout << "Seed: " << seed1 << endl;
     cout << "{";
     for (int i=0; i<19; i++) {
@@ -28,13 +36,10 @@ int main () {
     cout << array1[19] << "}" << endl;
     cout << endl;
     
-    cout << "Enter a seed to generate the random numbers for the array 1: ";
-    int seed2;
-    cin >> seed2;
-    cin.ignore();
+
     Fill_It(seed2, 1000, 2000, array2);
 
-    cout << "Array 2: " << endl;
+    cout << "Array 2 - " << endl;
     cout << "Seed: " << seed2 << endl;
     cout << "{";
     for (int i=0; i<19; i++) {
