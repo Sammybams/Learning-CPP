@@ -24,9 +24,10 @@ int main () {
     for (int i=0; i<19; i++) {
         cout << array1[i] << ", ";
     }
+
     cout << array1[19] << "}" << endl;
     cout << endl;
-
+    
     cout << "Enter a seed to generate the random numbers for the array 1: ";
     int seed2;
     cin >> seed2;
