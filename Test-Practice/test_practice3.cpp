@@ -7,6 +7,7 @@ using namespace std;
 
 void GetTwoNumbers(int *num1, int *num2) {
     
+    cout << "Enter two digits." << endl;
     cout << "First digit: ";
     int val1, val2;
     cin >> val1;
@@ -35,7 +36,6 @@ int main () {
     bool state = true;
 
     do {
-        cout << "Enter two digits." << endl;
         int first, second;
 
         GetTwoNumbers(&first, &second);

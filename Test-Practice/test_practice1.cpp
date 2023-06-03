@@ -33,7 +33,6 @@ int main () {
 
     do {
         
-
         int radius;
         int height;
 
