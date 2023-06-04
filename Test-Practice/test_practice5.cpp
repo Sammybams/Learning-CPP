@@ -94,22 +94,20 @@ double analysis(int choice , double var1, double var2, double var3) {
         case 1:
             solution = (var1*var3 + (0.5)*var2*pow(var3, 2));
             return solution;
-            break;
 
             // return var1*var3 + (1/2)*var2*pow(var3, 2);
         case 2:
             solution = (var1 + var2*var3);
             return solution;
-            break;
+
             //return var1 + var2*var3;
         case 3:
             solution = (pow(var1, 2) + 2*var2*var3);
             return solution;
-            break;
+
             // return pow(var1, 2) + 2*var2*var3;
         default:
             return -1;
-            break;
     }
 }
 
