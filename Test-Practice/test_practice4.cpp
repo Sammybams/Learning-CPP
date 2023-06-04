@@ -5,7 +5,7 @@ void Fill_It (int TheArray[], int seed, int low, int high) {
     
     srand(seed);
     for (int i = 0; i < 20; i++) {
-        TheArray[i] = low + (rand() % (high - low));
+        TheArray[i] = low + (rand() % (high - low + 1));
     }
 }
 
