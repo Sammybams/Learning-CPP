@@ -21,7 +21,7 @@ int main() {
 }
 
 void FillArray(double array[]) {
-    cout << "Fill the array with 5 floating values." << endl;
+    cout << "Fill the array with 5 floating point values." << endl;
 
     for (int i=0; i<5; i++) {
         cout << "Value " << i+1 << " = ";
