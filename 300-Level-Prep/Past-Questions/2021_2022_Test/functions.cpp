@@ -62,10 +62,10 @@ void WriteReceipt (Person MyPerson) {
         receipt << string(max, '*')
                 << "\n"
                 // << setw(shop_name_width) << MyPerson.MyShop.ShopName 
-                << "\t\t\t\t\t\t" << MyPerson.MyShop.ShopName 
+                << "\t\t\t" << MyPerson.MyShop.ShopName 
                 << "\n"
                 // << setw(shop_address_width) << MyPerson.MyShop.Address
-                << "\t\t\t\t\t" << MyPerson.MyShop.Address
+                << "\t\t" << MyPerson.MyShop.Address
                 << "\n\n"
                 << "Customer\t" << MyPerson.MyCustomer.CustomerName
                 << "\n"
