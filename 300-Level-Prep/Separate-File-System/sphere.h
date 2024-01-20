@@ -1,5 +1,5 @@
-#ifndef SPHERE_H
-#define SPHERE_H
+#ifndef _SPHERE_H
+#define _SPHERE_H
 
 class Sphere {
     private:

@@ -34,4 +34,4 @@ void groups();
 void groups () {
     Employee school[1000];
 
-}
+};
