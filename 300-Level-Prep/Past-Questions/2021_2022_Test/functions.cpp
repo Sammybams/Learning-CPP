@@ -83,6 +83,11 @@ void WriteReceipt (Person MyPerson) {
                 << "\n"
                 << "\t\t\t\t" << string(7, '*')
                 << "\n"
+                /*
+                Length of the string below is 25. Divided by 2 is 12.5.
+                Add 27 (half of the number of astericks) to it is 39.5. Round it down to 39.
+                This centres the string to the middle of the astericks.
+                */
                 << setw(39) << "Thanks for your patronage" 
                 << "\n"
                 << string(max, '*');
