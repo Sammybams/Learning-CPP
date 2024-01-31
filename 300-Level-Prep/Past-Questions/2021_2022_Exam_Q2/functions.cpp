@@ -34,7 +34,6 @@ void ReadStudentInfo (Student mystudents[3]) {
 	StudentInfo.close();
 }
 
-
 void CalcAverage (Student mystudents[3]) {
 	for (int i=0; i<3; i++) {
 		int Score1 = mystudents[i].Score1;
@@ -46,8 +45,6 @@ void CalcAverage (Student mystudents[3]) {
 		mystudents[i].AvgScore = AvgScore;
 	}
 }
-
-
 
 void WriteAvgScore (Student mystudents[3]) {
 
