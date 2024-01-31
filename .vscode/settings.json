@@ -62,5 +62,6 @@
         "utility": "cpp",
         "vector": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }

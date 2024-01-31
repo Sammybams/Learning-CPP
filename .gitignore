@@ -1,4 +1,4 @@
 *.exe
 *.out
 *.DS_Store
-.vscode
+/.vscode/
