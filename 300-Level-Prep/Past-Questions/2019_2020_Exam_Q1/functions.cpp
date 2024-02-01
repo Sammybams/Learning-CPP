@@ -48,8 +48,8 @@ void Quadratic::QuadraticRoots (Coefficient *Coeff, ComplexRoots *Roots) {
     } else {
         float realPart = -Coeff->b / (2 * Coeff->a);
         float imaginaryPart = sqrt(-((Coeff->b * Coeff->b) - (4 * Coeff->a * Coeff->c))) / (2 * Coeff->a);
-        Roots->root1 = std::complex<double>(realPart, imaginaryPart);
-        Roots->root2 = std::complex<double>(realPart, -imaginaryPart);
+        Roots->root1 = complex<float>(realPart, imaginaryPart);
+        Roots->root2 = complex<float>(realPart, -imaginaryPart);
     }
 }
 
