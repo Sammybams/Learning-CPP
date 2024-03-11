@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 #include "header.h"
 
 using namespace std;
@@ -112,14 +113,14 @@ void display(int numPlayers, Player players[4]) {
         }
 
     } else {
-        cout << "Before deduction." << endl;
+        cout << "\nBefore deduction." << endl;
         cout << left << setw(40) << "Name" << setw(20) << "House" << setw(20) << "Member" << endl;
         char value[6];
         for (int i=0; i<2; i++) { 
             mapEnum(players[i].house[0].colour, value);
             cout << left << setw(40) << players[i].name << setw(20) << value << setw(20) << players[i].house[0].numPlayers << endl;
         }
-        cout << string(50, '-') << endl;
+        cout << string(66, '-') << endl;
 
         cout << left << setw(40) << "Name" << setw(20) << "House" << setw(20) << "Member" << endl;
         for (int i=0; i<2; i++) {
@@ -134,7 +135,7 @@ void display(int numPlayers, Player players[4]) {
             int deduction = players[i].house[0].numPlayers - (i+1);
             cout << left << setw(40) << players[i].name << setw(20) << value << setw(20) << deduction << endl;
         }
-        cout << string(50, '-') << endl;
+        cout << string(66, '-') << endl;
 
         cout << left << setw(40) << "Name" << setw(20) << "House" << setw(20) << "Member" << endl;
         for (int i=0; i<2; i++) {
