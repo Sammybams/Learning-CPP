@@ -1,16 +1,16 @@
 ******************************************************
-			Yem Yem Ltd
-		University of Lagos, Akoka
+			Centre Stores
+		22, Oshipitan street
 
-Customer	Ronke Ahmed
+Customer	Samuel Bamgbola
 Phone Number	08169427605
 
 Your Order
 
 Product Name	UnitPrice	Quantity Ordered
-Chocolate	50		5
+Beans	500		5
 				*******
-		Total Price	250
+		Total Price	2500
 				*******
               Thanks for your patronage
-****************************************************** 
+******************************************************
