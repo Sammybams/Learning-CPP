@@ -1,2 +1,7 @@
 *.exe
 *.out
+*.DS_Store
+/.vscode/
+*/classes.dSYM/
+*/main.dSYM/
+*/300-Level-Prep/2023+2024_Test/Q1/main.dSYM
